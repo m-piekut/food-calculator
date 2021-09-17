@@ -1,0 +1,11 @@
+@media (min-width: 576px) {
+  html {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .list__items {
+    width: 97%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=small.css.map */
