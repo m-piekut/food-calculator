@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/food-calculator/static/css/main.59a0135f.chunk.css",
-    "main.js": "/food-calculator/static/js/main.65097a75.chunk.js",
-    "main.js.map": "/food-calculator/static/js/main.65097a75.chunk.js.map",
+    "main.css": "/food-calculator/static/css/main.1dfc9124.chunk.css",
+    "main.js": "/food-calculator/static/js/main.2062624e.chunk.js",
+    "main.js.map": "/food-calculator/static/js/main.2062624e.chunk.js.map",
     "runtime-main.js": "/food-calculator/static/js/runtime-main.0731fb4e.js",
     "runtime-main.js.map": "/food-calculator/static/js/runtime-main.0731fb4e.js.map",
     "static/js/2.a3aa9db9.chunk.js": "/food-calculator/static/js/2.a3aa9db9.chunk.js",
     "static/js/2.a3aa9db9.chunk.js.map": "/food-calculator/static/js/2.a3aa9db9.chunk.js.map",
     "index.html": "/food-calculator/index.html",
-    "static/css/main.59a0135f.chunk.css.map": "/food-calculator/static/css/main.59a0135f.chunk.css.map",
+    "static/css/main.1dfc9124.chunk.css.map": "/food-calculator/static/css/main.1dfc9124.chunk.css.map",
     "static/js/2.a3aa9db9.chunk.js.LICENSE.txt": "/food-calculator/static/js/2.a3aa9db9.chunk.js.LICENSE.txt",
     "static/media/style.css": "/food-calculator/static/media/triangles-1430105_1280.648a1fa6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0731fb4e.js",
     "static/js/2.a3aa9db9.chunk.js",
-    "static/css/main.59a0135f.chunk.css",
-    "static/js/main.65097a75.chunk.js"
+    "static/css/main.1dfc9124.chunk.css",
+    "static/js/main.2062624e.chunk.js"
   ]
 }
