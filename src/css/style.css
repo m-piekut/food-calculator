@@ -8,6 +8,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+.fa-check {
+  color: #BA17B2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +93,8 @@ td {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  max-height: 90vh;
+  overflow-y: auto;
+  height: 90vh;
 }
 
 .list h1 {
@@ -226,7 +231,7 @@ td {
   font-size: 1.4rem;
 }
 
-.addItem select {
+.addItem select, .addItem input[type="date"] {
   background: #000;
   box-shadow: 4px 4px 12px #000000, -4px -4px 12px rgba(255, 255, 255, 0.19);
   border-radius: 35px;
@@ -357,6 +362,22 @@ table tr:nth-child(even) {
   color: #BA17B2;
 }
 
+.addedProducts {
+  position: relative;
+  width: 98%;
+  margin: 0 auto;
+  background: rgba(225, 217, 217, 0.18);
+  border-radius: 15px;
+  overflow-y: auto;
+}
+
+.addedProducts__title {
+  margin: 5px auto;
+  width: min-content;
+  padding: 10px 5px;
+  border-bottom: 1px solid white;
+}
+
 .addedProducts__nutValues {
   width: 90%;
   text-align: center;
@@ -381,6 +402,26 @@ table tr:nth-child(even) {
   color: #C4C4C4;
 }
 
+.addedProducts__addToDecaders {
+  background: linear-gradient(180deg, #F35BE4 0.51%, #DD10C8 48.44%, #9E06A1 99.48%);
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.54);
+  border-radius: 31px;
+  font-size: 2rem;
+  width: 150px;
+  color: #fff;
+  background-color: #BA17B2;
+  border: none;
+  align-self: flex-end;
+  margin-top: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.addedProducts__addToDecaders:hover {
+  scale: 1.04;
+}
+
 .showAddItem {
   background: linear-gradient(180deg, #F35BE4 0.51%, #DD10C8 48.44%, #9E06A1 99.48%);
   box-shadow: -4px -4px 12px rgba(255, 255, 255, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.54);
@@ -394,5 +435,63 @@ table tr:nth-child(even) {
   bottom: 10px;
   right: 10px;
   padding: 5px 10px;
+}
+
+.kidsAmount {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kidsAmount__number {
+  width: 60px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0.712);
+  box-shadow: inset 4px 4px 12px #000000, inset -4px -4px 12px rgba(255, 255, 255, 0.25);
+  border-radius: 35px;
+  border: none;
+  color: white;
+  text-align: center;
+}
+
+.decadersList {
+  width: 95%;
+  background: rgba(15, 15, 15, 0.51);
+  backdrop-filter: blur(37px);
+  margin: 10px auto;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.decadersList__link {
+  background: rgba(225, 217, 217, 0.18);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.decadersList__link:hover {
+  scale: 1.1;
+}
+
+.decadersList__link h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.decadersList__link p {
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

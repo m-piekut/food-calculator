@@ -1,7 +1,12 @@
+import { useEffect } from "react";
 import { useState } from "react";
 
 const ListTableRow = ({ingridient, i, kids}) => {
     const [quan, setQuan]= useState(ingridient.quantity * kids)
+    useEffect(()=>{
+        setQuan(ingridient.quantity * kids)
+        return()=>{setQuan(1)}
+    }, [kids, ingridient.quantity])
     
     return ( 
         ingridient.name ? <tr key={i}>

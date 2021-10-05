@@ -1,13 +1,19 @@
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import AddedProducts from "./addedProducts/addedProducts";
 import AddItem from "./AddItem";
+import DecadersItem from "./decaders/DecadersItem";
+import DecadersList from "./decaders/decadersList";
+import Wit from "./decaders/DecadersDay";
 import Header from "./header/Header";
 import List from "./List/List";
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <div className="app">
+
+      
+    <HashRouter>
       <Header/>
       <AddItem/>
 
@@ -27,9 +33,14 @@ function App() {
       <Route   path='/Pasty'><List category="Pasty do pieczywa"/></Route>
       <Route   path='/Zupy-mleczne'><List category="Zupy mleczne"/></Route>
       <Route   path='/razem'><AddedProducts/></Route>
+      <Route   exact path='/dekadowki'><DecadersList/></Route>
+      <Route    exact path='/dekadowki/:id'><DecadersItem/></Route>
+      <Route    path='/dekadowki/:id/:id'><Wit id2="dekadówlo/:id/:id"/></Route>
         
       
-    </BrowserRouter>
+    </HashRouter>
+    
+    </div>
   );
 }
 

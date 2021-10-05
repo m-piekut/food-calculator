@@ -4,7 +4,6 @@ import { Formik, Form, Field } from 'formik';
 import { db } from "./firebase";
 import Ingredient from "./components/Ingredient";
 import PrimaryBtn from "./components/PrimmaryBtn"
-import { useEffect } from "react";
 const AddItem = () => {
     
    const [arr, setArr] = useState([<Ingredient i={0} key={0}/>, <Ingredient i={1} key={1}/>])
@@ -62,11 +61,6 @@ const AddItem = () => {
                     carbohydrates: carbohydrates,
                     kcal: kcal
                 })
-                
-                console.log('kcal', kcal)
-                console.log('fat', fat)
-                console.log('protein', protein)
-                console.log('carbohydrates', carbohydrates)
             }}
 >
 
