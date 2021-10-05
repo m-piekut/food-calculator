@@ -69,7 +69,7 @@ const DecadersForm = ({arr}) => {
                <option value="nowa">Nowa</option>
             </Field>
            
-            <label className="addItem__label" htmlFor="date">Kategoria:</label>
+            <label className="addItem__label" htmlFor="date">Data:</label>
             <Field className="addItem__longInput"  required type="date" name="date" id="date" />
             </div>
             
