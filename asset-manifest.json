@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/food-calculator/static/css/main.660f51cf.chunk.css",
-    "main.js": "/food-calculator/static/js/main.02ea9abd.chunk.js",
-    "main.js.map": "/food-calculator/static/js/main.02ea9abd.chunk.js.map",
+    "main.js": "/food-calculator/static/js/main.4aa5128e.chunk.js",
+    "main.js.map": "/food-calculator/static/js/main.4aa5128e.chunk.js.map",
     "runtime-main.js": "/food-calculator/static/js/runtime-main.0731fb4e.js",
     "runtime-main.js.map": "/food-calculator/static/js/runtime-main.0731fb4e.js.map",
     "static/js/2.34e5d354.chunk.js": "/food-calculator/static/js/2.34e5d354.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.0731fb4e.js",
     "static/js/2.34e5d354.chunk.js",
     "static/css/main.660f51cf.chunk.css",
-    "static/js/main.02ea9abd.chunk.js"
+    "static/js/main.4aa5128e.chunk.js"
   ]
 }
