@@ -8,11 +8,7 @@ const DecadersList = () => {
         db.ref('dekadowki').on('value', (snapshot)=>{
             const data = snapshot.val();
             setDecadersList(data)
-            console.log(data)
             if(data){
-              
-                
-                console.log(data)
                 setDecadersList(data)
             }
         })

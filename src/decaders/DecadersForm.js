@@ -10,13 +10,9 @@ const DecadersForm = ({arr}) => {
     useEffect(()=>{
         db.ref(`dekadowki`).on('value', (snapshot)=>{
             const data = snapshot.val();
-            console.log(data)
             if(data){
-              
-                console.log(Object.keys(data))
                 setDecadersNames(Object.keys(data))
             }
-            console.log(decadersNames.length)
         })
     },[decadersNames.length])
 
@@ -42,7 +38,6 @@ const DecadersForm = ({arr}) => {
         onSubmit={values => {
             if(values.decaderName === 'nowa'){
                 arr.forEach(e => {
-                    console.log(date)
                     db.ref(`dekadowki/Dekadówka${decadersNames.length+1}/${values.date}/${e.name}`).set(e)
                     values.decaderName = decadersNames[decadersNames.length -1]
                 })
@@ -83,7 +78,7 @@ const DecadersForm = ({arr}) => {
         </div>
 
 
-
+        
 </Formik>
         </div>
     )

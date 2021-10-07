@@ -378,6 +378,12 @@ table tr:nth-child(even) {
   border-bottom: 1px solid white;
 }
 
+.addedProducts__p {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
 .addedProducts__nutValues {
   width: 90%;
   text-align: center;
@@ -493,5 +499,49 @@ table tr:nth-child(even) {
 
 .decadersList__link p {
   font-size: 16px;
+}
+
+.typePicker {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 100;
+  background: rgba(15, 15, 15, 0.51);
+  backdrop-filter: blur(37px);
+  padding: 15px 0;
+  align-items: center;
+}
+
+.typePicker__wrapper {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  max-width: 500px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 12px #000000, -4px -4px 12px rgba(255, 255, 255, 0.19);
+  background: #131212;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.typePicker__button {
+  width: 30%;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  background-color: #0F0F0F;
+  color: white;
+  background: rgba(0, 0, 0, 0.712);
+  box-shadow: 4px 4px 12px #000000, -4px -4px 12px rgba(255, 255, 255, 0.19);
+  cursor: pointer;
+}
+
+.typePicker__button:hover {
+  scale: 1.02;
 }
 /*# sourceMappingURL=style.css.map */
